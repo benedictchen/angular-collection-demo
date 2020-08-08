@@ -1,0 +1,13 @@
+:host {
+	margin: 60px;
+	padding: 60px;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+
+	& th, td {
+		padding: 18px;
+	}
+}

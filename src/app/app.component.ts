@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'collection-demo';
+  displayedColumns: string[] = ['id', 'name'];
+  dataSource = [
+  	{id: 1, name: 'Alice'},
+  	{id: 2, name: 'Bob'},
+  ];
 }
